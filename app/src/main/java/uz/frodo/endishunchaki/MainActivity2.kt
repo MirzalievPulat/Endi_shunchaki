@@ -12,7 +12,6 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
-        lastScore = findViewById<TextView>(R.id.lastScore)
 
 
         val button = findViewById<Button>(R.id.button)

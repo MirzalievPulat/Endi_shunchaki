@@ -8,31 +8,6 @@
     android:background="#2196F3">
 
 
-    <TextView
-        android:id="@+id/lS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:fontFamily="@font/cherry"
-        android:text="Last score:"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/lastScore"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/cherry"
-        android:text="0"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/lS"
-        app:layout_constraintStart_toEndOf="@+id/lS"
-        android:layout_marginStart="10dp"/>
-
     <Button
         android:id="@+id/button"
         android:layout_width="100dp"
